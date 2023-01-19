@@ -1,0 +1,5 @@
+Skenario pengambilan data hanya untuk decrypt dan validasi kesesuaian data 
+belum sampai membandingkan data antar platform, jadinya frekuensi banyaknya data yang dikirim per detik
+tidak sama antar platform nya.
+
+*all test with fluke simulator attached with 80bpm 12 lead ecg
