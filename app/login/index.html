@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.min.js"></script>
+    <script src="https://unpkg.com/p5ble@0.0.7/dist/p5.ble.js" type="text/javascript"></script>
+    <title>Login</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container-fluid">
+            <!-- logo hate -->
+            <img src="../assets/logohate 1.svg" alt="Logo" width="60" height="60" class="d-inline-block align-text-top mx-4 my-3">
+        </div>
+    </nav>
+
+    <!-- login form -->
+    <section class="background-radial-gradient overflow-hidden">
+        <div class="container py-5 h-100">
+            <div class="row d-flex align-items-center justify-content-center h-100">
+                <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
+                    <form>
+                        <!-- role input -->
+                        <div class="form-outline mb-4">
+                            <input type="text" id="iniRole" class="form-control form-control-lg" placeholder="Pasien/Dokter">
+                            <label class="form-label" for="iniRole">Role</label>
+                        </div>
+
+                        <!-- email input -->
+                        <div class="form-outline mb-4">
+                            <input type="email" id="iniEmail" class="form-control form-control-lg" placeholder="Alamat E-mail">
+                            <label class="form-label" for="iniEmail">E-mail</label>
+                        </div>
+
+                        <!-- password input -->
+                        <div class="form-outline mb-4">
+                            <input type="password" id="iniPass" class="form-control form-control-lg" placeholder="kata sandi">
+                            <label class="form-label" for="iniPass">Password</label>
+                        </div>
+
+                        <div class="d-flex justify-content-around align-items-center mb-4">
+                            <!-- checkbox -->
+                            <div class="form-check">
+                                <input type="checkbox" value="" id="" class="form-check-input" checked>
+                                <label class="form-check-label" for="">Ingat Saya</label>
+                            </div>
+                            <a href="#">Lupa Password?</a>
+                        </div>
+
+                        <!-- login button -->
+                        <button type="submit" class="btn btn-primary btn-lg btn-block">Masuk</button>
+
+                        <!-- daftar button -->
+                        <button type="submit" class="btn btn-success btn-lg  btn-block">Daftar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

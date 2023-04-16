@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Telemedicine Data Viewer Detail</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.min.js"></script>
+    <script src="https://unpkg.com/p5ble@0.0.7/dist/p5.ble.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+    <script src="ble.js"></script>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container-fluid">
+            <!-- logo hate -->
+            <img src="../assets/logohate 1.svg" alt="Logo" width="60" height="60" class="d-inline-block align-text-top mx-4 my-3">
+            <!-- nama tenaga medis & foto -->
+            <div class="d-flex flex-row-reverse mx-4">
+                <img src="../assets/user 1.svg" alt="Logo" width="60" height="60" class="d-flex flex-row-reverse">
+                <p class="position-absolute top-50 translate-middle p-3">Nama Tenaga Medis</p>
+            </div>
+        </div>
+    </nav>
+
+    <!-- text -->
+    <div class="p-3 pb-md-4 mx-auto text-lg-start mt-xl-5 mx-xl-5 mb-4">
+        <p class="pb-0 mb-0">Halo, <b>Tn./Ny. Nama Tenaga Medis</b></p>
+        <p class="">Selamat datang di website telemedicine data viewer. Berikut ini merupakan data ECG dan SPO2 serta hasil prediksi kondisi kesehatan jantung <b>Tn./Ny. Nama Pasien</b>.</p>
+    </div>
+
+    <!-- Data Pasien -->
+    <div class="container justify-content-around">
+        <!-- baris 1 -->
+        <div class="row">
+            <div class="col">
+                <p>Nama Pasien : </p>
+            </div>
+            <div class="col">
+                <p>Jenis Kelamin : </p>
+            </div>
+            <div class="col">
+                <p>Tinggi Badan (cm) : </p>
+            </div>
+        </div>
+
+        <!-- baris 2 -->
+        <div class="row">
+            <div class="col">
+                <p>ID Pasien : </p>
+            </div>
+            <div class="col">
+                <p>Usia : </p>
+            </div>
+            <div class="col">
+                <p>Tanggal Lahir : </p>
+            </div>
+        </div>
+
+        <!-- baris 3 -->
+        <div class="row">
+            <div class="col">
+                <p>Tanggal : </p>
+            </div>
+            <div class="col">
+                <p>Berat Badan (kg) : </p>
+            </div>
+            <div class="col">
+                <p>SPO2(%) : </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- data ECG -->
+    <div class="container text-center mt-lg-4">
+        <img class="" src="../assets/ecg 2.png" alt="grafik ecg">
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+
+</html>
