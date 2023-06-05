@@ -1,0 +1,5 @@
+pengujian ble
+	1. 
+
+
+dan ini gw pengujian ble, copas manual data yang ada di terminal arduino ide sama javascript console nya ke excel abis itu gw bandingin waktu pengiriman sama jumlah data terkirim nya, gimana kalo kaya gini, gw belum nemu tools buat monitoring transmisi packet nya soalnya
